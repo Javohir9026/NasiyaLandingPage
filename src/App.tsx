@@ -202,7 +202,7 @@ export default function App() {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.3 }}
             >
-              <img src="/favicon.svg" alt="logo"/>
+              <img src="/favicon.svg" alt="logo" />
             </motion.div>
 
             <h2 className="text-4xl md:text-5xl mb-6 text-gray-900">
@@ -531,7 +531,7 @@ export default function App() {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.3 }}
             >
-                <img src="/favicon.svg" alt="logo" />
+              <img src="/favicon.svg" alt="logo" />
             </motion.div>
 
             <h2 className="text-4xl md:text-6xl mb-6">
@@ -602,12 +602,6 @@ export default function App() {
               yechim.
             </p>
           </motion.div>
-
-          <div className="border-t border-gray-800 pt-8 mt-8">
-            <p className="text-center text-gray-400">
-              © 2025. Barcha huquqlar himoyalangan.
-            </p>
-          </div>
         </div>
       </footer>
     </div>
