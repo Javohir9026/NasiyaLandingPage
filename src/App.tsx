@@ -407,14 +407,21 @@ export default function App() {
             ].map((item, index) => (
               <motion.div
                 key={index}
-                className="group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl transition-all relative overflow-hidden"
+                className="
+        group 
+        bg-white 
+        p-8 
+        rounded-3xl 
+        shadow-lg 
+        hover:shadow-2xl 
+        transition-all
+      "
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 whileHover={{ scale: 1.02, x: 8 }}
               >
-                <motion.div className="absolute right-0 top-0 w-40 h-40 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <div className="flex items-start gap-6">
                   <motion.div
                     className="bg-gradient-to-br from-blue-500 to-purple-600 p-4 rounded-2xl"
@@ -423,6 +430,7 @@ export default function App() {
                   >
                     <item.icon className="w-8 h-8 text-white" />
                   </motion.div>
+
                   <div className="flex-1">
                     <h3 className="text-2xl mb-3 text-gray-900 group-hover:text-blue-600 transition-colors">
                       {item.title}
